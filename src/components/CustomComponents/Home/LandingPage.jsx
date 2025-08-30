@@ -92,10 +92,11 @@ Like Never Before</h1> */}
             }}
           />
 {showList && (
-  <div
-    className="bg-zinc-900 border border-purple-700 shadow-[0_0_15px_rgba(128,0,255,0.4)]  rounded-xl mt-6 flex-col gap-3 max-h-48 overflow-y-auto"
-    style={{ width: showList ? "36rem" : "0", transition: "max-width 0.5s ease-in-out", padding: matchedCoin.length > 0 ? "1rem" : "0" }}
-  >
+<div
+  className={`bg-zinc-900 border border-purple-700 shadow-[0_0_15px_rgba(128,0,255,0.4)] rounded-xl mt-6 flex-col gap-3 max-h-48 overflow-y-auto transition-[width] duration-500 ease-in-out
+    ${showList ? "w-full sm:w-80 md:w-[28rem] lg:w-[36rem] p-4" : "w-0 p-0"}
+  `}
+>
     <ul>
       {matchedCoin.map((coin, index) => (
         <li

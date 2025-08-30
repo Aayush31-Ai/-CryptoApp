@@ -25,6 +25,3 @@ CryptoApp ek modern cryptocurrency dashboard hai jisme **real-time data**, **AI-
 - Latest news updates from multiple sources.
 
 ---
-
-## 🖼 Screenshots
-

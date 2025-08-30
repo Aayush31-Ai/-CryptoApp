@@ -1,12 +1,30 @@
-# React + Vite
+# 🚀 CryptoApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CryptoApp ek modern cryptocurrency dashboard hai jisme **real-time data**, **AI-powered tools**, aur **beautiful UI** integrated hai. Is app ka main goal hai users ko crypto market ke updates, coin analysis aur AI-based insights ek hi jagah provide karna.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+✅ **Live Cryptocurrency Data**  
+- Market prices, rank, volume, and trends in real-time.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✅ **Detailed Coin Information**  
+- Individual coins ke liye charts aur historical data.
+
+✅ **AI Integrations**  
+- **AI Chart Analysis** – Coins ke price trends ka smart analysis.  
+- **AI Coin Comparison** – Do coins ko compare karne ke liye AI insights.  
+- **AI Chatbot** – Crypto-related queries ke liye AI assistant.  
+- **AI News Summarizer** – Latest crypto news ka short summary.  
+
+✅ **Watchlist Feature**  
+- Favorite coins track karne ke liye personal watchlist.
+
+✅ **Crypto News Hub**  
+- Latest news updates from multiple sources.
+
+---
+
+## 🖼 Screenshots
+

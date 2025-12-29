@@ -4,12 +4,13 @@ import useChatGPT from "@/service/UseChatgpt";
 import { newsPrompt } from "@/utility/NewsPrompt";
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import useGemini from "@/service/Geminichat";
 
 const NewsHub = () => {
   const [json, setJson] = useState({});
   const location = useLocation();
   const news = location.state;
-  const { sendPrompt, output, loading, error } = useChatGPT();
+  const { sendPrompt, output, loading, error } = useGemini();
   const [loader,setLoader]  = useState(false);
 
   const submitToAi = async () => {

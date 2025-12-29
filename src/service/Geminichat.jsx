@@ -13,7 +13,7 @@ export default function useGemini() {
 
     try {
       const ai = new GoogleGenAI({
-        apiKey: import.meta.env.VITE_APP_GEMINI_API_KEY, // Store in .env
+        apiKey: import.meta.env.VITE_GEMINI_API_KEY, // Store in .env
       });
 
       const tools = [

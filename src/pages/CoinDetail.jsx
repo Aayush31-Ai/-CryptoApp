@@ -13,11 +13,12 @@ import MarketChart from "@/components/CustomComponents/MarketChart";
 import DetailChartAnalyse from "@/components/CustomComponents/DetailChartAnalyse";
 import { motion } from "framer-motion";
 import ChartDays from "@/components/CustomComponents/ChartDays";
+import useGemini from "@/service/Geminichat";
 const CoinDetail = () => {
   const [chartPriceData, setChartPriceData] = useState([]);
   const [days, setDays] = useState(7);
   const [chartMarketCapData, setChartMarketCapData] = useState([]);
-  const { sendPrompt, output, loading, error } = useChatGPT();
+  const { sendPrompt, output, loading, error } = useGemini();
   const [detailData, setDetailData] = useState({});
   const [news, setNews] = useState([]);
   const { id } = useParams();

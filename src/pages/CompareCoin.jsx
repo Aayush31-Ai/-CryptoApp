@@ -1,4 +1,5 @@
 import useChatGPT from "@/service/UseChatgpt";
+import useGemini from "@/service/Geminichat";
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { createPrompt } from "@/utility/coinComparisonPrompt";
@@ -7,7 +8,7 @@ import CoinCompAnalysis from "@/components/CustomComponents/CoinCompAnalysis";
 import { motion } from "framer-motion";
 
 const CompareCoin = () => {
-  const { sendPrompt, output, loading } = useChatGPT();
+  const { sendPrompt, output, loading } = useGemini();
   const [coin1, setCoin1] = useState("");
   const [coin2, setCoin2] = useState("");
   const [days, setDays] = useState(7);
